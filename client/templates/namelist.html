@@ -1,0 +1,11 @@
+<template name="namelist">
+    <ul>
+        {{#each names}}
+            {{> name}}
+        {{/each}}
+    </ul>
+</template>
+
+<template name="name">
+    <li>{{name}}</li>
+</template>
